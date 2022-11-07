@@ -34,22 +34,22 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_weight="2"
-            android:gravity="center"
             android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
             android:text="@string/history_date"
             android:textColor="@color/txt"
-            android:textSize="18sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/col_weight2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.1"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
             android:text="@string/history_weight"
             android:textColor="@color/txt"
-            android:textSize="18sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/col_bmi2"
@@ -60,19 +60,19 @@
             android:gravity="center"
             android:text="@string/history_bmi"
             android:textColor="@color/txt"
-            android:textSize="18sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/col_cat2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_marginEnd="10dp"
             android:layout_weight="3"
             android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
             android:text="@string/history_categories"
             android:textColor="@color/txt"
-            android:textSize="18sp" />
+            android:textSize="17sp" />
 
     </LinearLayout>
 
