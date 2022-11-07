@@ -1,4 +1,4 @@
-# bmi-calculator
+# body mass index calculator
 bmi-calculator application for android<br>
  calculate BMI value and corresponding weight status while taking age into consideration by Using Metric Units
 
