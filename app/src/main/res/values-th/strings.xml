@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">คำนวณหาค่าดัชนีมวลกาย</string>
+    <string name="title">ค่าดัชนีมวลกาย</string>
+    <string name="item1_text">ประวัติ</string>
+    <string name="calculate">คำนวน</string>
+    <string name="weight">น้ำหนัก (กิโลกรัม)</string>
+    <string name="height">ส่วนสูง (เซนติเมตร)</string>
+    <string name="bmi">ค่าดัชนีมวลกาย</string>
+    <string name="categories">อยู่ในเกณฑ์</string>
+    <string name="bmi_val">     </string>
+    <string name="cat_val">               </string>
+    <string name="hint_text">ใส่ค่าที่นี่</string>
+    <string name="invalid_input">กรุณาพิมค่าน้ำหนัก-ส่วนสูง</string>
+    <string name="hyphen">-</string>
+
+    <string name="bmi_class1">น้ำหนักน้อย / ผอม</string>
+    <string name="bmi_class2">ปกติ (สุขภาพดี)</string>
+    <string name="bmi_class3">ท้วม / โรคอ้วนระดับ 1</string>
+    <string name="bmi_class4">อ้วน / โรคอ้วนระดับ 2</string>
+    <string name="bmi_class5">อ้วนมาก / โรคอ้วนระดับ 3</string>
+
+
+    <string name="history_title">ประวัติค่าดัชนีมวลกาย</string>
+    <string name="history_date">วันที่</string>
+    <string name="history_weight">น้ำหนัก</string>
+    <string name="history_bmi">ค่าดัชนีมวลกาย</string>
+    <string name="history_categories">อยู่ในเกณฑ์</string>
+
+    <string name="map_date">date</string>
+    <string name="map_weight">weight</string>
+    <string name="map_bmi">bmi</string>
+    <string name="map_cat">cat</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#191C19</color>
+    <color name="txt">#FFFFFF</color>
+    <color name="box_txt">#000000</color>
+</resources>

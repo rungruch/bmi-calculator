@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Body Mass Index Calculator</string>
+    <string name="title">Body Mass Index</string>
+    <string name="item1_text">history</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="weight">Weight (kilograms)</string>
+    <string name="height">Height (centimeter)</string>
+    <string name="bmi">Body Mass Index</string>
+    <string name="categories">Classification</string>
+    <string name="bmi_val">     </string>
+    <string name="cat_val">               </string>
+    <string name="hint_text">type value here</string>
+    <string name="invalid_input">please type value</string>
+    <string name="hyphen">-</string>
+
+    <string name="bmi_class1">Underweight / Thinness</string>
+    <string name="bmi_class2">Normal Weight / Healthy</string>
+    <string name="bmi_class3">Overweight / Obesity Class 1</string>
+    <string name="bmi_class4">Obesity / Obesity Class 2</string>
+    <string name="bmi_class5">Morbid Obesity / Obesity Class 3</string>
+
+
+
+    <string name="history_title">History of Body Mass Index </string>
+    <string name="history_date">Date</string>
+    <string name="history_weight">Weight</string>
+    <string name="history_bmi">Body Mass Index</string>
+    <string name="history_categories">Classification</string>
+
+
+    <string name="map_date">date</string>
+    <string name="map_weight">weight</string>
+    <string name="map_bmi">bmi</string>
+    <string name="map_cat">cat</string>
+
+
+</resources>
