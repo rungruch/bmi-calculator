@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Environment;
 import android.text.InputFilter;
 import android.text.Spanned;
 import android.view.Menu;
@@ -15,13 +14,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.text.DecimalFormat;
@@ -162,25 +156,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<HashMap<String, String>> read_file() {
 
         String filename = "cs361.txt";
-       // String storageState = Environment.getExternalStorageState();
         ArrayList<HashMap<String, String>> savedArrayList = null;
-       /* if (storageState.equals(Environment.MEDIA_MOUNTED)) {
-            try {
-                File file = new File(Environment.getExternalStoragePublicDirectory(
-                        Environment.DIRECTORY_DOWNLOADS), filename);
-                if(!file.exists())
-                {
-                   return  savedArrayList;
-                }
-                ObjectInputStream in = new ObjectInputStream(new FileInputStream(file));
-                savedArrayList = (ArrayList<HashMap<String, String>>) in.readObject();
-                in.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-        }*/
-
         try{
             FileInputStream fileInputStream =  openFileInput(filename);
             ObjectInputStream in = new ObjectInputStream(fileInputStream);
